@@ -6,6 +6,7 @@ build = "build.rs"
 edition = "2021"
 license = "Apache-2.0"
 description = "WAVM (WebAssembly Virtual Machine) C API bindings for Rust."
+exclude = [ ".cargo/config.toml" ]
 
 
 [dependencies]
