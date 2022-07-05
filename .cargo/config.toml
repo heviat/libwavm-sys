@@ -1,2 +1,3 @@
 [env]
-WAVM_LIB_PATH="/d/Projekte/Heviat/wavm/lib/libWAVM"
+# set to WAVM libWAVM.lib absolute file path but without .lib file extension
+WAVM_LIB_PATH="/opt/wavm/lib/libWAVM"
