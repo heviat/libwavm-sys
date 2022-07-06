@@ -1,0 +1,13 @@
+[package]
+name = "libwavm-sys"
+version = "0.1.0"
+links = "wavm"
+build = "build.rs"
+edition = "2021"
+license = "Apache-2.0"
+description = "WAVM (WebAssembly Virtual Machine) C API bindings for Rust."
+exclude = [ ".cargo/config.toml" ]
+
+
+[dependencies]
+libc = "0.2.126"
