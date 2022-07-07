@@ -6,6 +6,9 @@ build = "build.rs"
 edition = "2021"
 license = "Apache-2.0"
 description = "WAVM (WebAssembly Virtual Machine) C API bindings for Rust."
+repository = "https://github.com/heviat/libwavm-sys"
+categories = [ "external-ffi-bindings" ]
+keywords = [ "wavm", "webassembly" ]
 exclude = [ ".cargo/config.toml" ]
 
 
