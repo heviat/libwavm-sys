@@ -2,7 +2,7 @@
 
 #### a FFI library for WAVM (Web Assembly Virtual Machine) C-API
 
-WAVM can be find [here](https://github.com/WAVM/WAVM) 
+WAVM can be found [here](https://github.com/WAVM/WAVM) 
 
 The bindings for Rust are generated via [bindgen](https://crates.io/crates/bindgen) and not wrapped any further at this moment. Therefore, you will need to write some wrapper functions to handle the unsafe API calls by yourself.
 Currently, the bindings are only generated for the static WAVM C-API on Windows systems. As soon as possible, there will be bindings for Unix systems.
