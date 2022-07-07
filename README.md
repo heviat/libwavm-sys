@@ -1,6 +1,6 @@
 ### libwasvm-sys
 
-##### a FFI library for WAVM (Web Assembly Virtual Machine) C-API
+#### a FFI library for WAVM (Web Assembly Virtual Machine) C-API
 
 WAVM can be find [here](https://github.com/WAVM/WAVM) 
 
